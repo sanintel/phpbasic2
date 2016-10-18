@@ -20,7 +20,13 @@ and open the template in the editor.
             echo 'key:' .$k.'/'.$v.'<br>';
             
         }
-        
+        $array2=['dmax','honda','isuzu'];
+        print_r($array2);
+        echo $array2[1];
+        echo '<hr>';
+        for ($x=0;$x<count($array2);$x++){
+            echo $array2[$x].'<br>';
+        }
         ?>
     </body>
 </html>
